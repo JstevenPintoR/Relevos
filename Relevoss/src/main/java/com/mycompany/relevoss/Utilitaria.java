@@ -22,20 +22,21 @@ public class Utilitaria {
       * @param equipo 
       */   
         public void imprimirGanador(String equipo){
-        System.out.print("         *            \n");
-        System.out.print("        * *           \n");
-        System.out.print("       *   *          \n");
-        System.out.print("      *     *         \n");
-        System.out.print("    *         *       \n");
-        System.out.print("  *             *     \n");
-        System.out.print("*    Ganó el     *    \n");
-        System.out.print("*   "+equipo+"       *\n");
-        System.out.print("  *             *     \n");
-        System.out.print("    *         *       \n");
-        System.out.print("      *     *         \n");
-        System.out.print("       *   *          \n");
-        System.out.print("        * *          \n");
-        System.out.print("         *           \n");
+        System.out.print("\033[33m         *            \n");
+        System.out.print("\033[33m        * *           \n");
+        System.out.print("\033[33m       *   *          \n");
+        System.out.print("\033[33m      *     *         \n");
+        System.out.print("\033[33m    *         *       \n");
+        System.out.print("\033[33m  *             *     \n");
+        System.out.print("\033[33m*     Ganó el     *    \n");
+        System.out.print("\033[33m*    "+equipo+"     *\n");
+        System.out.print("\033[33m  *             *     \n");
+        System.out.print("\033[33m    *         *       \n");
+        System.out.print("\033[33m      *     *         \n");
+        System.out.print("\033[33m       *   *          \n");
+        System.out.print("\033[33m        * *          \n");
+        System.out.print("\033[33m         *           \n");
+        System.exit(0);
         }//imprimir 
         
         public boolean mayorCorredor1(int numero){
